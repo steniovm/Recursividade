@@ -51,3 +51,15 @@ function createArrey(...arr){
     return arr;
 }
 console.log(createArrey(1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f','g','h',...vet,...concatarray(vetor1,vetor2)));
+/*
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question("What is your name? ", function (answer) {
+  console.log(`Oh, so your name is ${answer}`);
+});
+*/
